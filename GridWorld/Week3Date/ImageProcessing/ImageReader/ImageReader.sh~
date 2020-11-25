@@ -1,0 +1,4 @@
+javac -classpath .:ImageReader.jar src/ImageRunner.java 
+
+java -classpath .:ImageReader.jar:src/ ImageRunner
+

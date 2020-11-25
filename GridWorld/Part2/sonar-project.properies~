@@ -1,0 +1,15 @@
+#required metadata
+#projectKey
+sonar.projectKey=20191116
+sonar.projectName=Part2
+aonar.projectVersion=1.0
+sonar.sourceEncoding=UTF-8
+sonar.modules=java-module
+
+#Java module
+java-module.sonar.projectName=Java Module
+java-module.sonar.language=java
+
+#directory
+java-module.sonar.sources=.
+java-module.sonar.projectBaseDir=.

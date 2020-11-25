@@ -1,0 +1,12 @@
+package test;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class TestHW {
+	public HelloWorld hellowolrd = new HelloWorld ();
+
+	public void testHello() {
+		hellowolrd.hello ();
+		assertEquals ("Hello World!", hellowolrd.getStr ());
+	}
+}

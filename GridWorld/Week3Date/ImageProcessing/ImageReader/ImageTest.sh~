@@ -1,0 +1,4 @@
+javac -cp .:./../ImageReader.jar:./../junit.jar ImageTest.java
+
+java -cp .:./../ImageReader.jar:./../junit.jar ImageTest
+
